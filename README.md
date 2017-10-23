@@ -31,7 +31,7 @@ When working on a repository it is **extremely** important to make sure it is co
 * `git add file.md` will add the file you edited to the stage to be committed
 * `git add.` will add all files changed to your current/entire repository, while `git add --all` will include all changes made, including deleted files
 * `git commit -m "message"`will take a snapshot of the files(which should green) on stage. The message should describe what you did/ whqt you changed in the snapshot 
-* `git push -u origin master` is used to push your commits 
+* `git push -u origin master` is used to push your commits onto your repo in github
 * If you ever initialize in the wrong repository/folder, use `rm -rf .git` to remove the hidden folder
 
 2. While coding in a repository here are some commands used in order to keep track of your work:
