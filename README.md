@@ -1,14 +1,15 @@
 # GitHub Tutorial
 
-##### _by Jayden Weston_
+ _by Jayden Weston_
 
 ---
 ## Git vs. GitHub
-Git is a tool used by many people to take snapshots/take a picture of thier code and doesn't require github to be usable. Github is simialr to git but you can save changes/snapshots to your cloud and be able to see and track your changes on git. Also, github makes it easier for people to collaborate/work on files with opther programmers.
+Git is a tool used by many professionals to take snapshots/take a picture of their projects. Git is seperate from Github. Github is similar to Git but you can save changes/snapshots of projects to the cloud/internet. This makes it easier for people to collaborate on files with other professionals. 
 
 ---
 ## Initial Setup
-Git init is used when your first create a repository using git to initialize git in your newly made repository.
+_Your not teaching commandline, Your teaching git and GitHub Assume they already know it_
+Git init is used when you first create a repository using Git. To initialize Git in your newly made repository.
 To use git init, you:
 1. Create a repository using `mkdir repo-name`
 2. Use `cd repo-name` to go into your new repository
