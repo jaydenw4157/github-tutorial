@@ -11,9 +11,8 @@ Git is a tool used by many professionals to take snapshots/take a picture of the
 _Your not teaching commandline, Your teaching git and GitHub Assume they already know it_
 Git init is used when you first create a repository using Git. To initialize Git in your newly made repository.
 To use git init, you:
-1. Create a repository using `mkdir repo-name`
-2. Use `cd repo-name` to go into your new repository
-3. Use `git init` to initialize your repository
+1. Create a repository and go into your new repository
+2. Use `git init` to initialize your repository
 
 ---
 ## Repository Setup
@@ -45,13 +44,13 @@ When working on a repository it is **extremely** important to make sure it is co
 * If you are looking at someone's repo, press the button in the top-right corner that says `fork`
 * Once you fork the repo, press **clone or downlaod** and copy the ssh key
 * Go to your workspace and put `git clone` then paste the ssh key link
-* * Using `git pull`brings changes from your remote repo to the local repo
 
 4. However, you won't be able to push or pull because the repository isn't yours, just a copy to someone else's. To solve that you have to send a pull request. Yo do that by:
 * Commiting your change to a file
 *   After that, got to github and click on **new pull request** 
 *   When you click on new pull request, it should show what your were going to commit, make sure its there or you made a mistake
 *   Finally, press **create pull request** then the owner of the repo can decide whether to accept or deny the pull request
+*   If you accept a pull request, use `git pull` which brings changes from your remote repo to the local repo
 
 ---
 ## Rolling Back Changes
@@ -61,4 +60,4 @@ When coding using git, it is extremely diifficult to undo and add or commit. But
 * `git reset --soft HEAD~1` means to undo commits but leaves your files alone **and** your index
 * `git reset --hard HEAD~1` deletes your adds, commits, and edits and takes you back to your previous commit. Note: This is a **very dangerous command**, so it should be used wisely and when you are the only person using the repository
 * `git checkout --filename` allows you to revert/return to a previous commit 
-* `git push -force origin` will "force" push to a previous commit, deleting your previous git push. Make sure you are the only user/owner of your repository. If someone ele has pulled it, that repository will become corrupted
+* `git push -force origin` will "force" push to a previous commit, deleting your previous git push. Make sure you are the only user/owner of your repository. If someone else has pulled it, that repository will become corrupted
